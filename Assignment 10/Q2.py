@@ -1,6 +1,6 @@
 # Write a program which accepts one number and prints sum of first N natural numbers
 # Input: 5
-# Output: 120
+# Output: 15
 
 def SumNatural(No):
     sum = 0
