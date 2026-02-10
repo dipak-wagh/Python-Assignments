@@ -1,0 +1,42 @@
+# Write a Python program to implement a class named Demo with the following specifications:
+# The class should contain two instance variables: no1 and no2.
+# The class should contain one class variable named value.
+# Define a constructor (__init__) that accepts two parameters and initialize the instance variables.
+# Implement two instance methods:
+# Fun() displays the value of instance variables no1 and no2
+# Gun() displays the values of instance variables no1 and no2
+
+# Create two objects of the Demo class as follows:
+# Obj1 = Demo(11,21)
+
+# Obj2 = Demo(51,101)
+
+# Call the instance methods in the given sequence :
+
+#   Obj1.Fun()
+#   Obj2.Fun()
+#   Obj1.Gun()
+#   Obj2.Gun()
+
+class Demo:
+    value = 10
+
+    def __init__(self,no1,no2):
+        self.no1 = no1
+        self.no2 = no2
+
+    def Fun(self):
+        print("Value of instance variable: ",self.no1,self.no2)
+    
+    def Gun(self):
+        print("Value of instance variable: ",self.no1,self.no2)
+    
+# Creating Objects
+Obj1 = Demo(11,21)
+Obj2 = Demo(51,101)
+
+# Calling Methods
+Obj1.Fun()
+Obj2.Fun()
+Obj1.Gun()
+Obj2.Gun()
